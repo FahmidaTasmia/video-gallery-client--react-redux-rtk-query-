@@ -1,13 +1,16 @@
-export default function Player() {
+export default function Player({ link, title }) {
     return (
         <iframe
             width="100%"
             class="aspect-video"
-            src="https://www.youtube.com/embed/nFIDUAiSmt4"
-            title="Some video title"
+            src={link}
+            title={title}
             frameBorder=""
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullscreen
+            allow="accelerometer; 
+            autoplay; clipboard-write;
+             encrypted-media; gyroscope; 
+             picture-in-picture; web-share" 
+             allowfullscreen
         ></iframe>
     );
 }
