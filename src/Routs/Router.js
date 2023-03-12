@@ -17,7 +17,7 @@ const router = createBrowserRouter ([
             {
                 path:'/videos/:id',
                 element:<Video></Video>,
-                loader:({params})=>fetch(`http://localhost:5000/videos/${params.id}`)
+             
 
                 
             },

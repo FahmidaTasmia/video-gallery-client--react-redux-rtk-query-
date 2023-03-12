@@ -1,21 +1,18 @@
 import React from 'react'
-import { Puff } from "react-loader-spinner";
+import {  RotatingLines } from "react-loader-spinner";
 
 function Loader() {
   return (
-    <div>
+    <div className='flex h-[60vh] self-center m-auto'>
    
 
-        <Puff
-        height="80"
-        width="80"
-        radius={1}
-        color="#4fa94d"
-        ariaLabel="puff-loading"
-        wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
-        />
+   <RotatingLines
+  strokeColor="grey"
+  strokeWidth="5"
+  animationDuration="0.75"
+  width="96"
+  visible={true}
+/>
     </div>
   )
 }
