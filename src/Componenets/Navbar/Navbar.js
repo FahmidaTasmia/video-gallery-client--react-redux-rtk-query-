@@ -5,13 +5,13 @@ import logoImage from '../../assets/lws.png'
 import searchImage from '../../assets/search.svg'
 function Navbar() {
   return (
-    <nav className="bg-black shadow-md">
+    <nav className=" shadow-md">
             <div className="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3">
                 <Link to="/">
                     <img
-                        className="w-20 bg-black"
+                        className="w-10 rounded-full bg-black"
                         src={logoImage}
-                        alt="Learn with Sumit"
+                        alt=" # "
                     />
                 </Link>
                 <div className="border border-slate-200 flex items-center bg-white h-10 px-5 rounded-lg text-sm ring-emerald-200">

@@ -5,7 +5,7 @@ export default function Footer() {
                 <div>Copyright 2022 Aquos.</div>
                 <div>
                     <a
-                        href="https://youtube.com/learnwithsumit"
+                        href=" # "
                         target="_blank"
                         rel="noreferrer"
                     >
